@@ -1,3 +1,13 @@
+# Site settings
+title: Auto Trader Blog Jekyll Theme
+description: > # this means to ignore newlines until "baseurl:"
+  A theme that can be used to create branded Jekyll blogs.
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
@@ -5,3 +15,29 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-remote-theme
+  
+  
+  
+paginate: 20
+paginate_path: "/page-:num/"
+
+
+github:
+  username: autotraderuk
+twitter:
+  username: autotraderlife # This is used by jekyll-seo-tag
+facebook:
+  username: autotraderlife
+  
+include_repo_ribbon: false
+include_comments: false
+
+
+# start jekyll-seo-tag configuration
+logo: /assets/images/at-chevron_4096x4096.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/at-chevron_4096x4096.png
+# end jekyll-seo-tag configuration
