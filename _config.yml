@@ -22,7 +22,7 @@ paginate: 20
 paginate_path: "/page-:num/"
 
 
-github:
+githubdotgom:
   username: autotraderuk
 twitter:
   username: autotraderlife # This is used by jekyll-seo-tag
