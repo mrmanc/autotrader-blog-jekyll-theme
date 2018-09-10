@@ -2,6 +2,7 @@
 layout: post
 title: Sample Post
 author: Sample Author
+comments: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra tellus vitae faucibus fringilla. Maecenas vel rutrum turpis. Maecenas aliquet erat et pharetra consequat. Etiam tempus mollis tellus. Pellentesque id metus in orci vulputate placerat. Aliquam eros nisi, interdum nec eleifend non, rutrum vehicula elit. Aliquam viverra lectus vitae nunc pharetra, eget euismod eros sodales. Morbi convallis tempus nibh, ut ultrices massa placerat sed. Cras tempus sapien et urna faucibus, at dictum nisl sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed interdum tellus arcu, et hendrerit neque aliquam in. Vivamus molestie, arcu in pharetra malesuada, lorem lorem tempor eros, sit amet vulputate magna enim tristique velit. Proin laoreet metus ante, vitae posuere nulla pharetra et. In dictum felis vitae metus imperdiet malesuada. Pellentesque suscipit leo turpis, in iaculis lacus ultricies quis.
 
