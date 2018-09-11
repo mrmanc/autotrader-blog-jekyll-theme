@@ -11,6 +11,14 @@ Integer auctor, metus eu fermentum elementum, nunc tortor feugiat lorem, vitae e
 
 Aliquam at dolor ornare felis viverra sagittis. Aenean ac diam commodo, viverra nisi eget, convallis massa. Duis ullamcorper placerat ex, vitae hendrerit purus. Integer at mollis quam, id malesuada neque. Proin rhoncus nunc nec neque vestibulum, id cursus ante mollis. Etiam neque tellus, congue fringilla auctor eu, tristique at enim. Nullam non dolor eu lectus accumsan cursus non eu nibh. Quisque tristique id ligula a elementum.
 
+<div markdown="1" class="callout">
+
+Aliquam at dolor ornare felis viverra sagittis. Aenean ac diam commodo, viverra nisi eget, convallis massa. Duis ullamcorper placerat ex, vitae hendrerit purus. Integer at mollis quam, id malesuada neque. Proin rhoncus nunc nec neque vestibulum, id cursus ante mollis. Etiam neque tellus, congue fringilla auctor eu, tristique at enim. Nullam non dolor eu lectus accumsan cursus non eu nibh. Quisque tristique id ligula a elementum.
+
+Aliquam at dolor ornare felis viverra sagittis. Aenean ac diam commodo, viverra nisi eget, convallis massa. Duis ullamcorper placerat ex, vitae hendrerit purus. Integer at mollis quam, id malesuada neque. Proin rhoncus nunc nec neque vestibulum, id cursus ante mollis. Etiam neque tellus, congue fringilla auctor eu, tristique at enim. Nullam non dolor eu lectus accumsan cursus non eu nibh. Quisque tristique id ligula a elementum.
+
+</div>
+
 Cras nec enim aliquam, dignissim urna feugiat, finibus metus. Fusce felis enim, malesuada fringilla molestie a, finibus eu arcu. Praesent eget accumsan sapien. Nam a augue ac est aliquam feugiat non vitae ipsum. Donec eu orci ac velit dapibus maximus. Integer sed dolor id orci dictum egestas feugiat accumsan erat. Sed vitae tortor a sem ultrices efficitur.
 
 Curabitur justo ex, blandit eu ex a, ullamcorper porta nisl. Ut volutpat mi eu nisi pellentesque, sit amet tincidunt sapien posuere. Vivamus rutrum, elit non ornare maximus, orci enim volutpat nisi, non porta ante nunc sed lacus. Vestibulum eu luctus felis. Curabitur semper, tortor id lacinia mollis, tortor dui scelerisque lacus, sed interdum ligula dolor sit amet mi. Vestibulum tempus ante non viverra egestas. Sed feugiat eu ante vel vulputate. Etiam id facilisis lacus. Praesent vel feugiat lectus. In consequat sem ut quam blandit euismod. Phasellus eu pellentesque mi, vitae pharetra turpis. Aenean ut gravida risus, mattis maximus neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut justo mauris, pulvinar eu tincidunt in, interdum ut lectus. Pellentesque aliquet tristique magna at vehicula.

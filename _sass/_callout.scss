@@ -1,7 +1,10 @@
 .callout {
-  margin: -5 0 20px;
+  margin: -5px 0 20px;
   border: 1px solid $at-grey-light;
   border-left: 5px solid $at-grey-dark;
   border-radius: 3px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
+}
+p.callout {
+  padding-bottom: 20px;
 }
