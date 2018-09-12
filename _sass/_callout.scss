@@ -4,6 +4,9 @@
   border-left: 5px solid $at-grey-dark;
   border-radius: 3px;
   padding: 20px 20px 0 20px;
+  blockquote {
+    border: none;
+  }
 }
 p.callout {
   padding-bottom: 20px;
