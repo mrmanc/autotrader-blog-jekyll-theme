@@ -61,7 +61,7 @@ layout: default
         {% assign sortedTags = post.tags | sort %}
         <ul>
         {% for tag in sortedTags %}
-          <li><a href="/tags#{{ tag | slugify }}" class="related-post-tag">#{{ tag }}</a></li>
+          <li><a href="{{ site.github.url }}/tags#{{ tag | slugify }}" class="related-post-tag">#{{ tag }}</a></li>
         {% endfor %}
         </ul>
         <p>{{ post.excerpt | truncatewords: 50 }}</p>
