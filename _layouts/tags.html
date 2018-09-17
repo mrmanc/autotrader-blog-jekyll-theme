@@ -17,7 +17,7 @@ layout: default
                 {% if post.tags contains tag %}
             <li>
                 <h3>
-                    <a href="{{ post.url }}">
+                    <a href="{{ site.github.url }}{{ post.url }}">
                         {{ post.title }}
                         <br><small>{{ post.date | date_to_string }}—{{ post.author }}</small>
                     </a>
