@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="post">
+    {% include back_to_home.html %}
+    <h1 class="page-heading">Posts by Tag</h1>
+
+    <ul class="post-list">
+
+        {% include find_tags.html %}
+        
+        {% for tag in tags %}
+        <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+        <ul>
+            {% for post in site.posts %}
+                {% if post.tags contains tag %}
+            <li>
+                <h3>
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                        <br><small>{{ post.date | date_to_string }}—{{ post.author }}</small>
+                    </a>
+                </h3>
+            </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </ul>
+
+</div>

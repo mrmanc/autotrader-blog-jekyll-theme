@@ -32,6 +32,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$page-width:       980px;
 $spacing-unit:     8px;
 
 $text-color:       #666666;
@@ -74,6 +75,7 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting",
         "header",
+        "related",
         "table",
         "social_share",
         "callout"
