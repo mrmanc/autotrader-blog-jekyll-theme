@@ -54,18 +54,18 @@ layout: default
     {% endfor %}
     {% if sameTagCount > 0 %}
     <div class="related-post">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | relative_url }}">
         <strong>{{ post.title }}</strong><br>
         {{ post.date | date_to_string }}—{{ post.author }}
       </a>
         {% assign sortedTags = post.tags | sort %}
         <ul>
         {% for tag in sortedTags %}
-          <li><a href="{{ site.github.url }}/tags#{{ tag | slugify }}" class="related-post-tag">#{{ tag }}</a></li>
+          <li><a href="{{ tag | slugify | prepend: '/tags#' | relative_url }}" class="related-post-tag">#{{ tag }}</a></li>
         {% endfor %}
         </ul>
         <p>{{ post.excerpt | truncatewords: 50 }}</p>
-        <p><a class="btn btn-sm btn-primary" href="{{ site.github.url }}{{ post.url }}" role="button">Read more… <i class="fa fa-arrow-circle-right"></i></a>
+        <p><a class="btn btn-sm btn-primary" href="{{ post.url | relative_url }}" role="button">Read more… <i class="fa fa-arrow-circle-right"></i></a>
       </p>
     </div>
     {% endif %}
