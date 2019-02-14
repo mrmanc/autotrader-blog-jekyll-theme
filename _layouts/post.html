@@ -14,7 +14,7 @@ layout: default
     </div>
     {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
-    <span class="tag"><a href="{{ site.github.url }}/tags#{{ tag | slugify }}">#{{ tag }}</a></span>
+    <span class="tag"><a href="{{ tag | slugify | prepend: '/tags#' | relative_url }}">#{{ tag }}</a></span>
     {% endfor %}
   </header>
 
