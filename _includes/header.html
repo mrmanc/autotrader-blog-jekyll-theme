@@ -6,7 +6,7 @@
 
     <div class="top-header" >
         <div class="wrapper">
-           <a class="site-title at-logo" href="{{ site.github.url }}/" >
+           <a class="site-title at-logo" href="{{ site.url }}/" >
                 Auto Trader
            </a>
             <span>{{ site.title }}</span>
@@ -30,7 +30,7 @@
 
 
 
-            <a class="site-title at-logo" href="{{ site.github.url }}/" >
+            <a class="site-title at-logo" href="{{ site.url }}/" >
                 Auto Trader
             </a>
 
@@ -39,7 +39,7 @@
 
                 {% for page in site.pages %}
                   {% if page.title %}
-                  <a class="page-link" href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+                  <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
                   {% endif %}
                 {% endfor %}
 
