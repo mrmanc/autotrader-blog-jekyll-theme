@@ -34,4 +34,4 @@ See the [Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme) 
 
 You can serve this like a normal Jekyll site by running `jekyll serve`, and browsing to [http://localhost:4000/](http://localhost:4000/).
 
-You will need to push your changes to GitHub to integrate them with a site which uses this remote theme. Remember that if a site is tied to a specific Git ref of the theme then you’ll need to switch to a branch of the theme, or knock that bit off to see your changes. Once you’re satisfied with your changes then do a release and switch your Git ref to that. 
+You will need to push your changes to GitHub to integrate them with a site which uses this remote theme. Remember that if a site is tied to a specific Git ref of the theme then you’ll need to switch to a branch of the theme, or knock that bit off to see your changes. Once you’re satisfied with your changes then do a release and switch your Git ref to that.
